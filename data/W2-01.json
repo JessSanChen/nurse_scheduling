@@ -1,0 +1,5770 @@
+{
+    "Contracts": [
+        {
+            "ID": "Contract_1",
+            "MaximumNumberOfAssignments": 22,
+            "MinimumNumberOfAssignments": 20,
+            "MinimumNumberOfConsecutiveDaysOff": [
+                {
+                    "minimumNumberOfDaysOff": 1,
+                    "numberOfPreceedingWorkingDays": 6
+                }
+            ],
+            "MinimumRestTime": [
+                {
+                    "numberOfConsecutiveShifts": 1,
+                    "numberRestMinutes": 660
+                },
+                {
+                    "numberOfConsecutiveShifts": 6,
+                    "numberRestMinutes": 2100
+                }
+            ],
+            "WorkingWeekDay": [
+                {
+                    "id": "Mon"
+                },
+                {
+                    "id": "Tue"
+                },
+                {
+                    "id": "Wed"
+                },
+                {
+                    "id": "Thu"
+                },
+                {
+                    "id": "Fri"
+                }
+            ],
+            "averageTime": 432,
+            "completeWeekendConstraint": 0,
+            "maximumNumberOfConsecutiveDaysOff": 6,
+            "maximumNumberOfConsecutiveWorkingDays": 8,
+            "maximumNumberOfWorkingHolidays": 5,
+            "maximumNumberOfWorkingSundays": 5,
+            "maximumNumberOfWorkingWeekends": 5,
+            "maximumWorkingTime": 9504,
+            "minimumDaysDistance": 4,
+            "minimumNumberOfConsecutiveWorkingDays": 1,
+            "minimumWorkingTime": 8640
+        }
+    ],
+    "Holidays": [
+        {
+            "id": 2
+        }
+    ],
+    "Nurses": [
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_3"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_1",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_9"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_3"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_2",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_3"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_3",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_4",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6"
+                        },
+                        {
+                            "codComplete": "Shift_5"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_5",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_6",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_1",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "skill": "Skill_2"
+                },
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_1",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_4"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_7",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6"
+                        },
+                        {
+                            "codComplete": "Shift_5"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_8",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6"
+                        },
+                        {
+                            "codComplete": "Shift_5"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_9",
+            "contract_id": "Contract_1",
+            "gender": "Male"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6"
+                        },
+                        {
+                            "codComplete": "Shift_5"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_10",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6"
+                        },
+                        {
+                            "codComplete": "Shift_5"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_11",
+            "contract_id": "Contract_1",
+            "gender": "Male"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6"
+                        },
+                        {
+                            "codComplete": "Shift_5"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_12",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6"
+                        },
+                        {
+                            "codComplete": "Shift_5"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_13",
+            "contract_id": "Contract_1",
+            "gender": "Male"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6"
+                        },
+                        {
+                            "codComplete": "Shift_5"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_14",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_3",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6"
+                        },
+                        {
+                            "codComplete": "Shift_5"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        },
+                        {
+                            "codComplete": "Shift_4"
+                        },
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_8",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_2",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_2"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_15",
+            "contract_id": "Contract_1",
+            "gender": "Male"
+        }
+    ],
+    "Preassignments": [
+        {
+            "day": 3,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 9,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 23,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 29,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 29,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 30,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 15,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 16,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 22,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 23,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 16,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_9",
+            "priority": "Fixed"
+        },
+        {
+            "day": 9,
+            "detailedShift": "A",
+            "id": "Nurse_9",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 3,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 5,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 27,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 28,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 29,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 30,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 22,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 23,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 27,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 28,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 8,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 9,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 15,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 16,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_15",
+            "priority": "Fixed"
+        }
+    ],
+    "Priorities": [
+        {
+            "high": 100,
+            "low": 10,
+            "medium": 50,
+            "none": 0
+        }
+    ],
+    "Requirements": [
+        {
+            "SkillRequirements": [
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        }
+                    ],
+                    "period": "Early"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Day"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Late"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Night"
+                }
+            ],
+            "skill": "Skill_1"
+        },
+        {
+            "SkillRequirements": [
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        },
+                        {
+                            "num": 5
+                        }
+                    ],
+                    "period": "Early"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Day"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        },
+                        {
+                            "num": 4
+                        }
+                    ],
+                    "period": "Late"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        }
+                    ],
+                    "period": "Night"
+                }
+            ],
+            "skill": "Skill_2"
+        },
+        {
+            "SkillRequirements": [
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        }
+                    ],
+                    "period": "Early"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Day"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        },
+                        {
+                            "num": 2
+                        }
+                    ],
+                    "period": "Late"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Night"
+                }
+            ],
+            "skill": "Skill_3"
+        },
+        {
+            "SkillRequirements": [
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        },
+                        {
+                            "num": 9
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 1
+                        },
+                        {
+                            "num": 1
+                        }
+                    ],
+                    "period": "Early"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Day"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Late"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Night"
+                }
+            ],
+            "skill": "Skill_4"
+        }
+    ],
+    "Skills": [
+        {
+            "Shifts": [
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 432,
+                            "codComplete": "Shift_1",
+                            "startShift": 435
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 6,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Early"
+                }
+            ],
+            "id": "Skill_1"
+        },
+        {
+            "Shifts": [
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 390,
+                            "codComplete": "Shift_3",
+                            "startShift": 435
+                        },
+                        {
+                            "Length": 432,
+                            "codComplete": "Shift_4",
+                            "startShift": 435
+                        },
+                        {
+                            "Length": 432,
+                            "codComplete": "Shift_1",
+                            "startShift": 435
+                        },
+                        {
+                            "Length": 461,
+                            "codComplete": "Shift_5",
+                            "startShift": 450
+                        },
+                        {
+                            "Length": 461,
+                            "codComplete": "Shift_6",
+                            "startShift": 480
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 6,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Early"
+                },
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 720,
+                            "codComplete": "Shift_2",
+                            "startShift": 435
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 6,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Day"
+                },
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 420,
+                            "codComplete": "Shift_7",
+                            "startShift": 795
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 2,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Late"
+                },
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 700,
+                            "codComplete": "Shift_8",
+                            "startShift": 1195
+                        }
+                    ],
+                    "ForbiddenSucceeding": [
+                        {
+                            "id": "Early"
+                        },
+                        {
+                            "id": "Day"
+                        },
+                        {
+                            "id": "Late"
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 1,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Night"
+                }
+            ],
+            "id": "Skill_2"
+        },
+        {
+            "Shifts": [
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 390,
+                            "codComplete": "Shift_3",
+                            "startShift": 435
+                        },
+                        {
+                            "Length": 432,
+                            "codComplete": "Shift_4",
+                            "startShift": 435
+                        },
+                        {
+                            "Length": 432,
+                            "codComplete": "Shift_1",
+                            "startShift": 435
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 6,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Early"
+                },
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 420,
+                            "codComplete": "Shift_7",
+                            "startShift": 795
+                        },
+                        {
+                            "Length": 365,
+                            "codComplete": "Shift_9",
+                            "startShift": 795
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 2,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Late"
+                }
+            ],
+            "id": "Skill_3"
+        },
+        {
+            "Shifts": [
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 432,
+                            "codComplete": "Shift_1",
+                            "startShift": 435
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 6,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Early"
+                }
+            ],
+            "id": "Skill_4"
+        }
+    ],
+    "Weights": [
+        {
+            "completeWeekend": 1,
+            "consecutiveness": 50,
+            "daysOff": 10,
+            "exceedingStaffing": 10,
+            "incompatibility": 1,
+            "insufficientStaffing": 5,
+            "minNightsDistance": 80,
+            "nightunderstaffing": 20,
+            "periodSuccession": 10000,
+            "preferences": 1,
+            "rest": 10000,
+            "standardShift": 5,
+            "totalAssignments": 1,
+            "totalHolidays": 1,
+            "totalSundays": 1,
+            "totalWeekends": 1,
+            "understaffing": 80,
+            "workingTime": 10000,
+            "workteam": 1
+        }
+    ],
+    "id": "26|202006|",
+    "numberOfDays": 30,
+    "startDay": "Mon"
+}

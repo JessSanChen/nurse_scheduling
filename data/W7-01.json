@@ -1,0 +1,3212 @@
+{
+    "Contracts": [
+        {
+            "ID": "Contract_1",
+            "MaximumNumberOfAssignments": 22,
+            "MinimumNumberOfAssignments": 20,
+            "MinimumNumberOfConsecutiveDaysOff": [
+                {
+                    "minimumNumberOfDaysOff": 1,
+                    "numberOfPreceedingWorkingDays": 6
+                }
+            ],
+            "MinimumRestTime": [
+                {
+                    "numberOfConsecutiveShifts": 1,
+                    "numberRestMinutes": 660
+                },
+                {
+                    "numberOfConsecutiveShifts": 6,
+                    "numberRestMinutes": 2100
+                }
+            ],
+            "WorkingWeekDay": [
+                {
+                    "id": "Mon"
+                },
+                {
+                    "id": "Tue"
+                },
+                {
+                    "id": "Wed"
+                },
+                {
+                    "id": "Thu"
+                },
+                {
+                    "id": "Fri"
+                }
+            ],
+            "averageTime": 432,
+            "completeWeekendConstraint": 0,
+            "maximumNumberOfConsecutiveDaysOff": 6,
+            "maximumNumberOfConsecutiveWorkingDays": 8,
+            "maximumNumberOfWorkingHolidays": 5,
+            "maximumNumberOfWorkingSundays": 5,
+            "maximumNumberOfWorkingWeekends": 5,
+            "maximumWorkingTime": 9504,
+            "minimumDaysDistance": 4,
+            "minimumNumberOfConsecutiveWorkingDays": 1,
+            "minimumWorkingTime": 8640
+        },
+        {
+            "ID": "Contract_2",
+            "MaximumNumberOfAssignments": 22,
+            "MinimumNumberOfAssignments": 20,
+            "MinimumNumberOfConsecutiveDaysOff": [
+                {
+                    "minimumNumberOfDaysOff": 1,
+                    "numberOfPreceedingWorkingDays": 6
+                }
+            ],
+            "MinimumRestTime": [
+                {
+                    "numberOfConsecutiveShifts": 1,
+                    "numberRestMinutes": 660
+                },
+                {
+                    "numberOfConsecutiveShifts": 6,
+                    "numberRestMinutes": 2100
+                }
+            ],
+            "WorkingWeekDay": [
+                {
+                    "id": "Mon"
+                },
+                {
+                    "id": "Tue"
+                },
+                {
+                    "id": "Wed"
+                },
+                {
+                    "id": "Thu"
+                },
+                {
+                    "id": "Fri"
+                }
+            ],
+            "averageTime": 324,
+            "completeWeekendConstraint": 0,
+            "maximumNumberOfConsecutiveDaysOff": 6,
+            "maximumNumberOfConsecutiveWorkingDays": 8,
+            "maximumNumberOfWorkingHolidays": 5,
+            "maximumNumberOfWorkingSundays": 5,
+            "maximumNumberOfWorkingWeekends": 5,
+            "maximumWorkingTime": 7128,
+            "minimumDaysDistance": 4,
+            "minimumNumberOfConsecutiveWorkingDays": 1,
+            "minimumWorkingTime": 6480
+        },
+        {
+            "ID": "Contract_3",
+            "MaximumNumberOfAssignments": 9,
+            "MinimumNumberOfAssignments": 7,
+            "MinimumNumberOfConsecutiveDaysOff": [
+                {
+                    "minimumNumberOfDaysOff": 1,
+                    "numberOfPreceedingWorkingDays": 6
+                }
+            ],
+            "MinimumRestTime": [
+                {
+                    "numberOfConsecutiveShifts": 1,
+                    "numberRestMinutes": 660
+                },
+                {
+                    "numberOfConsecutiveShifts": 6,
+                    "numberRestMinutes": 2100
+                }
+            ],
+            "WorkingWeekDay": [
+                {
+                    "id": "Tue"
+                },
+                {
+                    "id": "Fri"
+                }
+            ],
+            "averageTime": 324,
+            "completeWeekendConstraint": 0,
+            "maximumNumberOfConsecutiveDaysOff": 6,
+            "maximumNumberOfConsecutiveWorkingDays": 8,
+            "maximumNumberOfWorkingHolidays": 5,
+            "maximumNumberOfWorkingSundays": 5,
+            "maximumNumberOfWorkingWeekends": 5,
+            "maximumWorkingTime": 2916,
+            "minimumDaysDistance": 4,
+            "minimumNumberOfConsecutiveWorkingDays": 1,
+            "minimumWorkingTime": 2268
+        },
+        {
+            "ID": "Contract_4",
+            "MaximumNumberOfAssignments": 22,
+            "MinimumNumberOfAssignments": 20,
+            "MinimumNumberOfConsecutiveDaysOff": [
+                {
+                    "minimumNumberOfDaysOff": 1,
+                    "numberOfPreceedingWorkingDays": 6
+                }
+            ],
+            "MinimumRestTime": [
+                {
+                    "numberOfConsecutiveShifts": 1,
+                    "numberRestMinutes": 660
+                },
+                {
+                    "numberOfConsecutiveShifts": 6,
+                    "numberRestMinutes": 2100
+                }
+            ],
+            "WorkingWeekDay": [
+                {
+                    "id": "Mon"
+                },
+                {
+                    "id": "Tue"
+                },
+                {
+                    "id": "Wed"
+                },
+                {
+                    "id": "Thu"
+                },
+                {
+                    "id": "Fri"
+                }
+            ],
+            "averageTime": 388,
+            "completeWeekendConstraint": 0,
+            "maximumNumberOfConsecutiveDaysOff": 6,
+            "maximumNumberOfConsecutiveWorkingDays": 8,
+            "maximumNumberOfWorkingHolidays": 5,
+            "maximumNumberOfWorkingSundays": 5,
+            "maximumNumberOfWorkingWeekends": 5,
+            "maximumWorkingTime": 8553,
+            "minimumDaysDistance": 4,
+            "minimumNumberOfConsecutiveWorkingDays": 1,
+            "minimumWorkingTime": 7776
+        }
+    ],
+    "Holidays": [
+        {
+            "id": 15
+        }
+    ],
+    "Nurses": [
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_11"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 2
+            },
+            "ID": "Nurse_1",
+            "contract_id": "Contract_2",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_10"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_2",
+            "contract_id": "Contract_2",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_3",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 3
+            },
+            "ID": "Nurse_4",
+            "contract_id": "Contract_1",
+            "gender": "Male"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 6
+            },
+            "ID": "Nurse_5",
+            "contract_id": "Contract_1",
+            "gender": "Male"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_7",
+                            "standard": 1
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_6",
+            "contract_id": "Contract_3",
+            "gender": "Male"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_9",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_12"
+                        },
+                        {
+                            "codComplete": "Shift_14"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_7",
+            "contract_id": "Contract_4",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 7
+            },
+            "ID": "Nurse_8",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_9",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_10",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 17
+            },
+            "ID": "Nurse_11",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_12",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_5",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_15"
+                        },
+                        {
+                            "codComplete": "Shift_2"
+                        },
+                        {
+                            "codComplete": "Shift_3"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_13",
+            "contract_id": "Contract_2",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 2
+            },
+            "ID": "Nurse_14",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_15",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 6
+            },
+            "ID": "Nurse_16",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 6
+            },
+            "ID": "Nurse_17",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 6
+            },
+            "ID": "Nurse_18",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "A",
+                "night_distance": 17
+            },
+            "ID": "Nurse_19",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        },
+        {
+            "Abilities": [
+                {
+                    "ShiftsInAbilities": [
+                        {
+                            "codComplete": "Shift_4",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_6",
+                            "standard": 1
+                        },
+                        {
+                            "codComplete": "Shift_13"
+                        },
+                        {
+                            "codComplete": "Shift_1"
+                        }
+                    ],
+                    "defaultSkill": 1,
+                    "skill": "Skill_1"
+                }
+            ],
+            "History": {
+                "consecutive_days_off": 0,
+                "consecutive_shifts_same_period": 0,
+                "consecutive_working_days": 0,
+                "last_shift": "NA",
+                "night_distance": 1
+            },
+            "ID": "Nurse_20",
+            "contract_id": "Contract_1",
+            "gender": "Female"
+        }
+    ],
+    "Preassignments": [
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 8,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 9,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 15,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 16,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_1",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_2",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_2",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_2",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_2",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_2",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_2",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_2",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_2",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_2",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 3,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 5,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 6,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 27,
+            "detailedShift": "A",
+            "id": "Nurse_3",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 2,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 3,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 5,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 6,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 8,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 9,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 15,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 16,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_4",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 2,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 3,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 5,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 6,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_5",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_6",
+            "priority": "Fixed"
+        },
+        {
+            "day": 3,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 5,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 6,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_7",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 2,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 3,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 5,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 6,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 8,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 9,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 15,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 16,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_8",
+            "priority": "Fixed"
+        },
+        {
+            "day": 31,
+            "detailedShift": "A",
+            "id": "Nurse_9",
+            "priority": "Fixed"
+        },
+        {
+            "day": 28,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 29,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 30,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 31,
+            "detailedShift": "A",
+            "id": "Nurse_10",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 2,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 3,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 5,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 6,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 8,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 9,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 15,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 16,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 22,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 23,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 27,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 28,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 29,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 30,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 31,
+            "detailedShift": "A",
+            "id": "Nurse_11",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_12",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_12",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_12",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_12",
+            "priority": "Fixed"
+        },
+        {
+            "day": 27,
+            "detailedShift": "A",
+            "id": "Nurse_12",
+            "priority": "Fixed"
+        },
+        {
+            "day": 28,
+            "detailedShift": "A",
+            "id": "Nurse_12",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 15,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 16,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 22,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 23,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 27,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 28,
+            "detailedShift": "A",
+            "id": "Nurse_13",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 2,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 27,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 28,
+            "detailedShift": "A",
+            "id": "Nurse_14",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_15",
+            "priority": "Fixed"
+        },
+        {
+            "day": 25,
+            "detailedShift": "A",
+            "id": "Nurse_15",
+            "priority": "Fixed"
+        },
+        {
+            "day": 26,
+            "detailedShift": "A",
+            "id": "Nurse_15",
+            "priority": "Fixed"
+        },
+        {
+            "day": 27,
+            "detailedShift": "A",
+            "id": "Nurse_15",
+            "priority": "Fixed"
+        },
+        {
+            "day": 28,
+            "detailedShift": "A",
+            "id": "Nurse_15",
+            "priority": "Fixed"
+        },
+        {
+            "day": 29,
+            "detailedShift": "A",
+            "id": "Nurse_15",
+            "priority": "Fixed"
+        },
+        {
+            "day": 30,
+            "detailedShift": "A",
+            "id": "Nurse_15",
+            "priority": "Fixed"
+        },
+        {
+            "day": 31,
+            "detailedShift": "A",
+            "id": "Nurse_15",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_16",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_16",
+            "priority": "Fixed"
+        },
+        {
+            "day": 22,
+            "detailedShift": "A",
+            "id": "Nurse_16",
+            "priority": "Fixed"
+        },
+        {
+            "day": 27,
+            "detailedShift": "A",
+            "id": "Nurse_16",
+            "priority": "Fixed"
+        },
+        {
+            "day": 28,
+            "detailedShift": "A",
+            "id": "Nurse_16",
+            "priority": "Fixed"
+        },
+        {
+            "day": 31,
+            "detailedShift": "A",
+            "id": "Nurse_16",
+            "priority": "Fixed"
+        },
+        {
+            "day": 8,
+            "detailedShift": "A",
+            "id": "Nurse_17",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_17",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_17",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_18",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_18",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_18",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_18",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_18",
+            "priority": "Fixed"
+        },
+        {
+            "day": 1,
+            "detailedShift": "A",
+            "id": "Nurse_19",
+            "priority": "Fixed"
+        },
+        {
+            "day": 2,
+            "detailedShift": "A",
+            "id": "Nurse_19",
+            "priority": "Fixed"
+        },
+        {
+            "day": 3,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 4,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 5,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 6,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 7,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 10,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 11,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 12,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 13,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 14,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 17,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 18,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 19,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 20,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 21,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        },
+        {
+            "day": 24,
+            "detailedShift": "A",
+            "id": "Nurse_20",
+            "priority": "Fixed"
+        }
+    ],
+    "Priorities": [
+        {
+            "high": 100,
+            "low": 10,
+            "medium": 50,
+            "none": 0
+        }
+    ],
+    "Requirements": [
+        {
+            "SkillRequirements": [
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Day"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 20
+                        },
+                        {
+                            "num": 3
+                        },
+                        {
+                            "num": 20
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 10
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 10
+                        }
+                    ],
+                    "period": "Early"
+                },
+                {
+                    "MaximumRequirements": [
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        },
+                        {
+                            "num": 999
+                        }
+                    ],
+                    "MinimumRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "OptimalRequirements": [
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        },
+                        {
+                            "num": 0
+                        }
+                    ],
+                    "period": "Late"
+                }
+            ],
+            "skill": "Skill_1"
+        }
+    ],
+    "Skills": [
+        {
+            "Shifts": [
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 432,
+                            "codComplete": "Shift_1",
+                            "startShift": 630
+                        },
+                        {
+                            "Length": 324,
+                            "codComplete": "Shift_2",
+                            "startShift": 630
+                        },
+                        {
+                            "Length": 324,
+                            "codComplete": "Shift_3",
+                            "startShift": 771
+                        },
+                        {
+                            "Length": 720,
+                            "codComplete": "Shift_16",
+                            "startShift": 480
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 6,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Day"
+                },
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 432,
+                            "codComplete": "Shift_4",
+                            "startShift": 480
+                        },
+                        {
+                            "Length": 324,
+                            "codComplete": "Shift_5",
+                            "startShift": 435
+                        },
+                        {
+                            "Length": 461,
+                            "codComplete": "Shift_6",
+                            "startShift": 435
+                        },
+                        {
+                            "Length": 324,
+                            "codComplete": "Shift_7",
+                            "startShift": 480
+                        },
+                        {
+                            "Length": 389,
+                            "codComplete": "Shift_8",
+                            "startShift": 480
+                        },
+                        {
+                            "Length": 417,
+                            "codComplete": "Shift_9",
+                            "startShift": 480
+                        },
+                        {
+                            "Length": 324,
+                            "codComplete": "Shift_10",
+                            "startShift": 510
+                        },
+                        {
+                            "Length": 324,
+                            "codComplete": "Shift_11",
+                            "startShift": 540
+                        },
+                        {
+                            "Length": 417,
+                            "codComplete": "Shift_12",
+                            "startShift": 540
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 6,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Early"
+                },
+                {
+                    "DetailedShift": [
+                        {
+                            "Length": 432,
+                            "codComplete": "Shift_13",
+                            "startShift": 768
+                        },
+                        {
+                            "Length": 390,
+                            "codComplete": "Shift_14",
+                            "startShift": 810
+                        },
+                        {
+                            "Length": 324,
+                            "codComplete": "Shift_15",
+                            "startShift": 876
+                        },
+                        {
+                            "Length": 300,
+                            "codComplete": "Shift_17",
+                            "startShift": 900
+                        }
+                    ],
+                    "MaximumNumberOfConsecutiveAssignments": 2,
+                    "MinimumNumberOfConsecutiveAssignments": 1,
+                    "period": "Late"
+                }
+            ],
+            "id": "Skill_1"
+        }
+    ],
+    "Weights": [
+        {
+            "completeWeekend": 1,
+            "consecutiveness": 50,
+            "daysOff": 10,
+            "exceedingStaffing": 10,
+            "incompatibility": 1,
+            "insufficientStaffing": 5,
+            "minNightsDistance": 80,
+            "nightunderstaffing": 20,
+            "periodSuccession": 10000,
+            "preferences": 1,
+            "rest": 10000,
+            "standardShift": 5,
+            "totalAssignments": 1,
+            "totalHolidays": 1,
+            "totalSundays": 1,
+            "totalWeekends": 1,
+            "understaffing": 80,
+            "workingTime": 10000,
+            "workteam": 1
+        }
+    ],
+    "id": "120|202008",
+    "numberOfDays": 31,
+    "startDay": "Sat"
+}

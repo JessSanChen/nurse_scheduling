@@ -1,0 +1,3485 @@
+{
+    "Instanceid": "97|202006|",
+    "Report": [
+        {
+            "rptPropertyName": "",
+            "rptPropertyValue": ""
+        },
+        {
+            "rptPropertyName": "cost",
+            "rptPropertyValue": 18940
+        },
+        {
+            "rptPropertyName": "objective",
+            "rptPropertyValue": 18940
+        },
+        {
+            "rptPropertyName": "violations",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "time",
+            "rptPropertyValue": 952.864061592
+        },
+        {
+            "rptPropertyName": "seed",
+            "rptPropertyValue": 2060777537
+        },
+        {
+            "rptPropertyName": "MinimumRestTime",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "PeriodSuccession",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "WorkingTime",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "Consecutiveness",
+            "rptPropertyValue": 3200
+        },
+        {
+            "rptPropertyName": "ExceedingStaffing",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "Understaffing",
+            "rptPropertyValue": 880
+        },
+        {
+            "rptPropertyName": "DistanceBetweenNights",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "MinimumDayOffAfterConsecutiveAssignments",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "InsufficientStaffing",
+            "rptPropertyValue": 14680
+        },
+        {
+            "rptPropertyName": "Incompatibility",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "Workteam",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "CompleteWeekend",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "MaxSundayAssignments",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "MaxWorkingHolidays",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "TotalWorkingWeekends",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "TotalAssignments",
+            "rptPropertyValue": 100
+        },
+        {
+            "rptPropertyName": "Preferences",
+            "rptPropertyValue": 0
+        },
+        {
+            "rptPropertyName": "StandardShiftAndSkill",
+            "rptPropertyValue": 80
+        }
+    ],
+    "Solution": [
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_8",
+                    "skill": "Skill_3"
+                }
+            ],
+            "id": "Nurse_1",
+            "totalassignments": 21
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "A"
+                },
+                {
+                    "day": 2,
+                    "shift": "A"
+                },
+                {
+                    "day": 3,
+                    "shift": "A"
+                },
+                {
+                    "day": 4,
+                    "shift": "A"
+                },
+                {
+                    "day": 5,
+                    "shift": "A"
+                },
+                {
+                    "day": 6,
+                    "shift": "A"
+                },
+                {
+                    "day": 7,
+                    "shift": "A"
+                },
+                {
+                    "day": 8,
+                    "shift": "A"
+                },
+                {
+                    "day": 9,
+                    "shift": "A"
+                },
+                {
+                    "day": 10,
+                    "shift": "A"
+                },
+                {
+                    "day": 11,
+                    "shift": "A"
+                },
+                {
+                    "day": 12,
+                    "shift": "A"
+                },
+                {
+                    "day": 13,
+                    "shift": "A"
+                },
+                {
+                    "day": 14,
+                    "shift": "A"
+                },
+                {
+                    "day": 15,
+                    "shift": "A"
+                },
+                {
+                    "day": 16,
+                    "shift": "A"
+                },
+                {
+                    "day": 17,
+                    "shift": "A"
+                },
+                {
+                    "day": 18,
+                    "shift": "A"
+                },
+                {
+                    "day": 19,
+                    "shift": "A"
+                },
+                {
+                    "day": 20,
+                    "shift": "A"
+                },
+                {
+                    "day": 21,
+                    "shift": "A"
+                },
+                {
+                    "day": 22,
+                    "shift": "A"
+                },
+                {
+                    "day": 23,
+                    "shift": "A"
+                },
+                {
+                    "day": 24,
+                    "shift": "A"
+                },
+                {
+                    "day": 25,
+                    "shift": "A"
+                },
+                {
+                    "day": 26,
+                    "shift": "A"
+                },
+                {
+                    "day": 27,
+                    "shift": "A"
+                },
+                {
+                    "day": 28,
+                    "shift": "A"
+                },
+                {
+                    "day": 29,
+                    "shift": "A"
+                },
+                {
+                    "day": 30,
+                    "shift": "A"
+                }
+            ],
+            "id": "Nurse_2",
+            "totalassignments": 22
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 4,
+                    "shift": "A"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 10,
+                    "shift": "A"
+                },
+                {
+                    "day": 11,
+                    "shift": "A"
+                },
+                {
+                    "day": 12,
+                    "shift": "A"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 26,
+                    "shift": "A"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_2",
+                    "skill": "Skill_1"
+                }
+            ],
+            "id": "Nurse_3",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "R"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 5,
+                    "shift": "A"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_2",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 26,
+                    "shift": "R"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "A"
+                },
+                {
+                    "day": 30,
+                    "shift": "A"
+                }
+            ],
+            "id": "Nurse_4",
+            "totalassignments": 19
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "A"
+                },
+                {
+                    "day": 23,
+                    "shift": "A"
+                },
+                {
+                    "day": 24,
+                    "shift": "A"
+                },
+                {
+                    "day": 25,
+                    "shift": "A"
+                },
+                {
+                    "day": 26,
+                    "shift": "A"
+                },
+                {
+                    "day": 27,
+                    "shift": "A"
+                },
+                {
+                    "day": 28,
+                    "shift": "A"
+                },
+                {
+                    "day": 29,
+                    "shift": "A"
+                },
+                {
+                    "day": 30,
+                    "shift": "A"
+                }
+            ],
+            "id": "Nurse_5",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "A"
+                },
+                {
+                    "day": 4,
+                    "shift": "A"
+                },
+                {
+                    "day": 5,
+                    "shift": "A"
+                },
+                {
+                    "day": 6,
+                    "shift": "A"
+                },
+                {
+                    "day": 7,
+                    "shift": "A"
+                },
+                {
+                    "day": 8,
+                    "shift": "A"
+                },
+                {
+                    "day": 9,
+                    "shift": "A"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "R"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                }
+            ],
+            "id": "Nurse_6",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 9,
+                    "shift": "A"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                }
+            ],
+            "id": "Nurse_7",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "A"
+                },
+                {
+                    "day": 9,
+                    "shift": "A"
+                },
+                {
+                    "day": 10,
+                    "shift": "A"
+                },
+                {
+                    "day": 11,
+                    "shift": "A"
+                },
+                {
+                    "day": 12,
+                    "shift": "A"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 19,
+                    "shift": "R"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 25,
+                    "shift": "A"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                }
+            ],
+            "id": "Nurse_8",
+            "totalassignments": 19
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 10,
+                    "shift": "A"
+                },
+                {
+                    "day": 11,
+                    "shift": "A"
+                },
+                {
+                    "day": 12,
+                    "shift": "A"
+                },
+                {
+                    "day": 13,
+                    "shift": "A"
+                },
+                {
+                    "day": 14,
+                    "shift": "A"
+                },
+                {
+                    "day": 15,
+                    "shift": "A"
+                },
+                {
+                    "day": 16,
+                    "shift": "A"
+                },
+                {
+                    "day": 17,
+                    "shift": "A"
+                },
+                {
+                    "day": 18,
+                    "shift": "A"
+                },
+                {
+                    "day": 19,
+                    "shift": "A"
+                },
+                {
+                    "day": 20,
+                    "shift": "A"
+                },
+                {
+                    "day": 21,
+                    "shift": "A"
+                },
+                {
+                    "day": 22,
+                    "shift": "A"
+                },
+                {
+                    "day": 23,
+                    "shift": "A"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                }
+            ],
+            "id": "Nurse_9",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_4",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_6",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "R"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_5",
+                    "skill": "Skill_2"
+                }
+            ],
+            "id": "Nurse_10",
+            "totalassignments": 19
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "A"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "R"
+                },
+                {
+                    "day": 4,
+                    "shift": "R"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_2",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "R"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_11",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_15",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "R"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_15",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_15",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_15",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_8",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "R"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_15",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_15",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_15",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "R"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                }
+            ],
+            "id": "Nurse_11",
+            "totalassignments": 15
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "A"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 5,
+                    "shift": "A"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_13",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_13",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_13",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_13",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "R"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_13",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_16",
+                    "skill": "Skill_5"
+                }
+            ],
+            "id": "Nurse_12",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 5,
+                    "shift": "A"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "A"
+                },
+                {
+                    "day": 9,
+                    "shift": "A"
+                },
+                {
+                    "day": 10,
+                    "shift": "A"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "R"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                }
+            ],
+            "id": "Nurse_13",
+            "totalassignments": 19
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "A"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "A"
+                },
+                {
+                    "day": 4,
+                    "shift": "A"
+                },
+                {
+                    "day": 5,
+                    "shift": "A"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 9,
+                    "shift": "A"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 19,
+                    "shift": "R"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "A"
+                },
+                {
+                    "day": 30,
+                    "shift": "A"
+                }
+            ],
+            "id": "Nurse_14",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 12,
+                    "shift": "R"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "A"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "A"
+                },
+                {
+                    "day": 30,
+                    "shift": "A"
+                }
+            ],
+            "id": "Nurse_15",
+            "totalassignments": 19
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                }
+            ],
+            "id": "Nurse_16",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "A"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_2",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "R"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 26,
+                    "shift": "R"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                }
+            ],
+            "id": "Nurse_17",
+            "totalassignments": 19
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 12,
+                    "shift": "A"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_2",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "R"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_2",
+                    "skill": "Skill_6"
+                }
+            ],
+            "id": "Nurse_18",
+            "totalassignments": 19
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "A"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "A"
+                },
+                {
+                    "day": 4,
+                    "shift": "A"
+                },
+                {
+                    "day": 5,
+                    "shift": "A"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "R"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "R"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 26,
+                    "shift": "A"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                }
+            ],
+            "id": "Nurse_19",
+            "totalassignments": 19
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 10,
+                    "shift": "A"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "A"
+                },
+                {
+                    "day": 16,
+                    "shift": "A"
+                },
+                {
+                    "day": 17,
+                    "shift": "A"
+                },
+                {
+                    "day": 18,
+                    "shift": "A"
+                },
+                {
+                    "day": 19,
+                    "shift": "A"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 26,
+                    "shift": "A"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                }
+            ],
+            "id": "Nurse_20",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 12,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 19,
+                    "shift": "A"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "A"
+                },
+                {
+                    "day": 23,
+                    "shift": "A"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "A"
+                },
+                {
+                    "day": 26,
+                    "shift": "A"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "A"
+                },
+                {
+                    "day": 30,
+                    "shift": "A"
+                }
+            ],
+            "id": "Nurse_21",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "A"
+                },
+                {
+                    "day": 2,
+                    "shift": "A"
+                },
+                {
+                    "day": 3,
+                    "shift": "A"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "R"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 12,
+                    "shift": "R"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_4",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_5",
+                    "skill": "Skill_4"
+                }
+            ],
+            "id": "Nurse_22",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 5,
+                    "shift": "A"
+                },
+                {
+                    "day": 6,
+                    "shift": "A"
+                },
+                {
+                    "day": 7,
+                    "shift": "A"
+                },
+                {
+                    "day": 8,
+                    "shift": "A"
+                },
+                {
+                    "day": 9,
+                    "shift": "A"
+                },
+                {
+                    "day": 10,
+                    "shift": "A"
+                },
+                {
+                    "day": 11,
+                    "shift": "A"
+                },
+                {
+                    "day": 12,
+                    "shift": "A"
+                },
+                {
+                    "day": 13,
+                    "shift": "A"
+                },
+                {
+                    "day": 14,
+                    "shift": "A"
+                },
+                {
+                    "day": 15,
+                    "shift": "A"
+                },
+                {
+                    "day": 16,
+                    "shift": "A"
+                },
+                {
+                    "day": 17,
+                    "shift": "A"
+                },
+                {
+                    "day": 18,
+                    "shift": "A"
+                },
+                {
+                    "day": 19,
+                    "shift": "A"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                }
+            ],
+            "id": "Nurse_23",
+            "totalassignments": 20
+        },
+        {
+            "Assignments": [
+                {
+                    "day": 1,
+                    "shift": "R"
+                },
+                {
+                    "day": 2,
+                    "shift": "R"
+                },
+                {
+                    "day": 3,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 4,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 5,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 6,
+                    "shift": "R"
+                },
+                {
+                    "day": 7,
+                    "shift": "R"
+                },
+                {
+                    "day": 8,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 9,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 10,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 11,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 12,
+                    "shift": "R"
+                },
+                {
+                    "day": 13,
+                    "shift": "R"
+                },
+                {
+                    "day": 14,
+                    "shift": "R"
+                },
+                {
+                    "day": 15,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 16,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 17,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 18,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 19,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 20,
+                    "shift": "R"
+                },
+                {
+                    "day": 21,
+                    "shift": "R"
+                },
+                {
+                    "day": 22,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 23,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 24,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 25,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 26,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 27,
+                    "shift": "R"
+                },
+                {
+                    "day": 28,
+                    "shift": "R"
+                },
+                {
+                    "day": 29,
+                    "shift": "Shift_7",
+                    "skill": "Skill_4"
+                },
+                {
+                    "day": 30,
+                    "shift": "Shift_12",
+                    "skill": "Skill_4"
+                }
+            ],
+            "id": "Nurse_24",
+            "totalassignments": 19
+        }
+    ]
+}
